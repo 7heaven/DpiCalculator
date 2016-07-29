@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6468F8A1D3CEF5A004E15F7 /* ScrollingLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F6468F891D3CEF5A004E15F7 /* ScrollingLayer.m */; };
+		F6468F8D1D3D1E36004E15F7 /* ScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6468F8C1D3D1E36004E15F7 /* ScrollView.m */; };
+		F68CD8461D4B57EE0057C8D3 /* OnlyIntegerValueFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F68CD8451D4B57EE0057C8D3 /* OnlyIntegerValueFormatter.m */; };
+		F69F68D11D36531C00EBC3C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F69F68D01D36531C00EBC3C7 /* AppDelegate.m */; };
+		F69F68D41D36531C00EBC3C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F69F68D31D36531C00EBC3C7 /* main.m */; };
+		F69F68D71D36531C00EBC3C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F69F68D61D36531C00EBC3C7 /* ViewController.m */; };
+		F69F68D91D36531C00EBC3C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F69F68D81D36531C00EBC3C7 /* Assets.xcassets */; };
+		F69F68DC1D36531C00EBC3C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69F68DA1D36531C00EBC3C7 /* Main.storyboard */; };
+		F69F68E71D36531C00EBC3C7 /* DpiCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F69F68E61D36531C00EBC3C7 /* DpiCalculatorTests.m */; };
+		F69F68F21D36531C00EBC3C7 /* DpiCalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F69F68F11D36531C00EBC3C7 /* DpiCalculatorUITests.m */; };
+		F69F69001D36564500EBC3C7 /* OutputDpiView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F69F68FF1D36564500EBC3C7 /* OutputDpiView.xib */; };
+		F69F69031D36571100EBC3C7 /* OutputDpiView.m in Sources */ = {isa = PBXBuildFile; fileRef = F69F69021D36571100EBC3C7 /* OutputDpiView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F69F68E31D36531C00EBC3C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F69F68C41D36531C00EBC3C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F69F68CB1D36531C00EBC3C7;
+			remoteInfo = DpiCalculator;
+		};
+		F69F68EE1D36531C00EBC3C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F69F68C41D36531C00EBC3C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F69F68CB1D36531C00EBC3C7;
+			remoteInfo = DpiCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6468F881D3CEF5A004E15F7 /* ScrollingLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollingLayer.h; sourceTree = "<group>"; };
+		F6468F891D3CEF5A004E15F7 /* ScrollingLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollingLayer.m; sourceTree = "<group>"; };
+		F6468F8B1D3D1E36004E15F7 /* ScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollView.h; sourceTree = "<group>"; };
+		F6468F8C1D3D1E36004E15F7 /* ScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollView.m; sourceTree = "<group>"; };
+		F68CD8441D4B57EE0057C8D3 /* OnlyIntegerValueFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnlyIntegerValueFormatter.h; sourceTree = "<group>"; };
+		F68CD8451D4B57EE0057C8D3 /* OnlyIntegerValueFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnlyIntegerValueFormatter.m; sourceTree = "<group>"; };
+		F69F68CC1D36531C00EBC3C7 /* DpiCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DpiCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69F68CF1D36531C00EBC3C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F69F68D01D36531C00EBC3C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F69F68D31D36531C00EBC3C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F69F68D51D36531C00EBC3C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F69F68D61D36531C00EBC3C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F69F68D81D36531C00EBC3C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F69F68DB1D36531C00EBC3C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F69F68DD1D36531C00EBC3C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69F68E21D36531C00EBC3C7 /* DpiCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DpiCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69F68E61D36531C00EBC3C7 /* DpiCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DpiCalculatorTests.m; sourceTree = "<group>"; };
+		F69F68E81D36531C00EBC3C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69F68ED1D36531C00EBC3C7 /* DpiCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DpiCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69F68F11D36531C00EBC3C7 /* DpiCalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DpiCalculatorUITests.m; sourceTree = "<group>"; };
+		F69F68F31D36531C00EBC3C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69F68FF1D36564500EBC3C7 /* OutputDpiView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OutputDpiView.xib; sourceTree = "<group>"; };
+		F69F69011D36571100EBC3C7 /* OutputDpiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutputDpiView.h; sourceTree = "<group>"; };
+		F69F69021D36571100EBC3C7 /* OutputDpiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutputDpiView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F69F68C91D36531C00EBC3C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69F68DF1D36531C00EBC3C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69F68EA1D36531C00EBC3C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F69F68C31D36531C00EBC3C7 = {
+			isa = PBXGroup;
+			children = (
+				F69F68CE1D36531C00EBC3C7 /* DpiCalculator */,
+				F69F68E51D36531C00EBC3C7 /* DpiCalculatorTests */,
+				F69F68F01D36531C00EBC3C7 /* DpiCalculatorUITests */,
+				F69F68CD1D36531C00EBC3C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F69F68CD1D36531C00EBC3C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F69F68CC1D36531C00EBC3C7 /* DpiCalculator.app */,
+				F69F68E21D36531C00EBC3C7 /* DpiCalculatorTests.xctest */,
+				F69F68ED1D36531C00EBC3C7 /* DpiCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F69F68CE1D36531C00EBC3C7 /* DpiCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				F69F68CF1D36531C00EBC3C7 /* AppDelegate.h */,
+				F69F68D01D36531C00EBC3C7 /* AppDelegate.m */,
+				F69F68D51D36531C00EBC3C7 /* ViewController.h */,
+				F69F68D61D36531C00EBC3C7 /* ViewController.m */,
+				F69F68D81D36531C00EBC3C7 /* Assets.xcassets */,
+				F69F68DA1D36531C00EBC3C7 /* Main.storyboard */,
+				F69F68DD1D36531C00EBC3C7 /* Info.plist */,
+				F69F68D21D36531C00EBC3C7 /* Supporting Files */,
+				F69F68FF1D36564500EBC3C7 /* OutputDpiView.xib */,
+				F69F69011D36571100EBC3C7 /* OutputDpiView.h */,
+				F69F69021D36571100EBC3C7 /* OutputDpiView.m */,
+				F6468F881D3CEF5A004E15F7 /* ScrollingLayer.h */,
+				F6468F891D3CEF5A004E15F7 /* ScrollingLayer.m */,
+				F6468F8B1D3D1E36004E15F7 /* ScrollView.h */,
+				F6468F8C1D3D1E36004E15F7 /* ScrollView.m */,
+				F68CD8441D4B57EE0057C8D3 /* OnlyIntegerValueFormatter.h */,
+				F68CD8451D4B57EE0057C8D3 /* OnlyIntegerValueFormatter.m */,
+			);
+			path = DpiCalculator;
+			sourceTree = "<group>";
+		};
+		F69F68D21D36531C00EBC3C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F69F68D31D36531C00EBC3C7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F69F68E51D36531C00EBC3C7 /* DpiCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F69F68E61D36531C00EBC3C7 /* DpiCalculatorTests.m */,
+				F69F68E81D36531C00EBC3C7 /* Info.plist */,
+			);
+			path = DpiCalculatorTests;
+			sourceTree = "<group>";
+		};
+		F69F68F01D36531C00EBC3C7 /* DpiCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F69F68F11D36531C00EBC3C7 /* DpiCalculatorUITests.m */,
+				F69F68F31D36531C00EBC3C7 /* Info.plist */,
+			);
+			path = DpiCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F69F68CB1D36531C00EBC3C7 /* DpiCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69F68F61D36531C00EBC3C7 /* Build configuration list for PBXNativeTarget "DpiCalculator" */;
+			buildPhases = (
+				F69F68C81D36531C00EBC3C7 /* Sources */,
+				F69F68C91D36531C00EBC3C7 /* Frameworks */,
+				F69F68CA1D36531C00EBC3C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DpiCalculator;
+			productName = DpiCalculator;
+			productReference = F69F68CC1D36531C00EBC3C7 /* DpiCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F69F68E11D36531C00EBC3C7 /* DpiCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69F68F91D36531C00EBC3C7 /* Build configuration list for PBXNativeTarget "DpiCalculatorTests" */;
+			buildPhases = (
+				F69F68DE1D36531C00EBC3C7 /* Sources */,
+				F69F68DF1D36531C00EBC3C7 /* Frameworks */,
+				F69F68E01D36531C00EBC3C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F69F68E41D36531C00EBC3C7 /* PBXTargetDependency */,
+			);
+			name = DpiCalculatorTests;
+			productName = DpiCalculatorTests;
+			productReference = F69F68E21D36531C00EBC3C7 /* DpiCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F69F68EC1D36531C00EBC3C7 /* DpiCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69F68FC1D36531C00EBC3C7 /* Build configuration list for PBXNativeTarget "DpiCalculatorUITests" */;
+			buildPhases = (
+				F69F68E91D36531C00EBC3C7 /* Sources */,
+				F69F68EA1D36531C00EBC3C7 /* Frameworks */,
+				F69F68EB1D36531C00EBC3C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F69F68EF1D36531C00EBC3C7 /* PBXTargetDependency */,
+			);
+			name = DpiCalculatorUITests;
+			productName = DpiCalculatorUITests;
+			productReference = F69F68ED1D36531C00EBC3C7 /* DpiCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F69F68C41D36531C00EBC3C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = 7heaven;
+				TargetAttributes = {
+					F69F68CB1D36531C00EBC3C7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F69F68E11D36531C00EBC3C7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F69F68CB1D36531C00EBC3C7;
+					};
+					F69F68EC1D36531C00EBC3C7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F69F68CB1D36531C00EBC3C7;
+					};
+				};
+			};
+			buildConfigurationList = F69F68C71D36531C00EBC3C7 /* Build configuration list for PBXProject "DpiCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F69F68C31D36531C00EBC3C7;
+			productRefGroup = F69F68CD1D36531C00EBC3C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F69F68CB1D36531C00EBC3C7 /* DpiCalculator */,
+				F69F68E11D36531C00EBC3C7 /* DpiCalculatorTests */,
+				F69F68EC1D36531C00EBC3C7 /* DpiCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F69F68CA1D36531C00EBC3C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69F69001D36564500EBC3C7 /* OutputDpiView.xib in Resources */,
+				F69F68D91D36531C00EBC3C7 /* Assets.xcassets in Resources */,
+				F69F68DC1D36531C00EBC3C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69F68E01D36531C00EBC3C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69F68EB1D36531C00EBC3C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F69F68C81D36531C00EBC3C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69F68D71D36531C00EBC3C7 /* ViewController.m in Sources */,
+				F69F68D41D36531C00EBC3C7 /* main.m in Sources */,
+				F6468F8A1D3CEF5A004E15F7 /* ScrollingLayer.m in Sources */,
+				F68CD8461D4B57EE0057C8D3 /* OnlyIntegerValueFormatter.m in Sources */,
+				F69F68D11D36531C00EBC3C7 /* AppDelegate.m in Sources */,
+				F69F69031D36571100EBC3C7 /* OutputDpiView.m in Sources */,
+				F6468F8D1D3D1E36004E15F7 /* ScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69F68DE1D36531C00EBC3C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69F68E71D36531C00EBC3C7 /* DpiCalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69F68E91D36531C00EBC3C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69F68F21D36531C00EBC3C7 /* DpiCalculatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F69F68E41D36531C00EBC3C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F69F68CB1D36531C00EBC3C7 /* DpiCalculator */;
+			targetProxy = F69F68E31D36531C00EBC3C7 /* PBXContainerItemProxy */;
+		};
+		F69F68EF1D36531C00EBC3C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F69F68CB1D36531C00EBC3C7 /* DpiCalculator */;
+			targetProxy = F69F68EE1D36531C00EBC3C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F69F68DA1D36531C00EBC3C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F69F68DB1D36531C00EBC3C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F69F68F41D36531C00EBC3C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F69F68F51D36531C00EBC3C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F69F68F71D36531C00EBC3C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DpiCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sevenheaven.DpiCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F69F68F81D36531C00EBC3C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DpiCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sevenheaven.DpiCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F69F68FA1D36531C00EBC3C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DpiCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sevenheaven.DpiCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DpiCalculator.app/Contents/MacOS/DpiCalculator";
+			};
+			name = Debug;
+		};
+		F69F68FB1D36531C00EBC3C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DpiCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sevenheaven.DpiCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DpiCalculator.app/Contents/MacOS/DpiCalculator";
+			};
+			name = Release;
+		};
+		F69F68FD1D36531C00EBC3C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DpiCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sevenheaven.DpiCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DpiCalculator;
+			};
+			name = Debug;
+		};
+		F69F68FE1D36531C00EBC3C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DpiCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sevenheaven.DpiCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DpiCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F69F68C71D36531C00EBC3C7 /* Build configuration list for PBXProject "DpiCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69F68F41D36531C00EBC3C7 /* Debug */,
+				F69F68F51D36531C00EBC3C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69F68F61D36531C00EBC3C7 /* Build configuration list for PBXNativeTarget "DpiCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69F68F71D36531C00EBC3C7 /* Debug */,
+				F69F68F81D36531C00EBC3C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69F68F91D36531C00EBC3C7 /* Build configuration list for PBXNativeTarget "DpiCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69F68FA1D36531C00EBC3C7 /* Debug */,
+				F69F68FB1D36531C00EBC3C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69F68FC1D36531C00EBC3C7 /* Build configuration list for PBXNativeTarget "DpiCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69F68FD1D36531C00EBC3C7 /* Debug */,
+				F69F68FE1D36531C00EBC3C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F69F68C41D36531C00EBC3C7 /* Project object */;
+}
